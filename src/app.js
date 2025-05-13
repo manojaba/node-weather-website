@@ -4,6 +4,7 @@ const hbs = require('hbs');
 const geocode = require('./utils/geocode.js');
 const forecast = require('./utils/forecast.js')
 const request = require('request')
+const port = process.env.PORT || 3000;
 
 
 console.log(__dirname)
